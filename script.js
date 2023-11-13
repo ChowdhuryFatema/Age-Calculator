@@ -2,7 +2,12 @@ let userInput = document.getElementById('date');
 userInput.max = new Date().toISOString().split('T')[0];
 let result = document.getElementById('result');
 
+
 function calculateAge(){
+    if (userInput.value === ''){
+        alert('Please provide a age');
+        PreventDefault();
+    }
     let birthDate = new Date(userInput.value);
 
     let d1 = birthDate.getDate();
