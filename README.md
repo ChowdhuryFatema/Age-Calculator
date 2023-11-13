@@ -4,7 +4,7 @@ Author - Fatema Chowdhury
 ## Project Live Link
 https://chowdhuryfatema.github.io/Age-Calculator/
 ## Technologies
---Html5 </br>
---Row CSS </br>
---JavaScript </br>
---Responsive
+-Html5 </br>
+-Raw CSS </br>
+-JavaScript </br>
+-Responsive
